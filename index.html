@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananta Kishore Swain | Web Developer</title>
+    <meta name="description" content="Portfolio of Ananta Kishore Swain - Web Developer specializing in Frontend Development, UI/UX, and Hybrid App Development">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+    
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Home">AKS</a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__greeting">Hi, I'm </span>
+                        <span class="hero__name">Ananta Kishore Swain</span>
+                        <span class="hero__typing"></span>
+                    </h1>
+                    <p class="hero__description">I build exceptional digital experiences with modern web technologies.</p>
+                    <div class="hero__cta">
+                        <a href="#projects" class="btn btn--primary">View My Work</a>
+                        <a href="#contact" class="btn btn--outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__image-wrapper">
+                        <img src="self.jpg" alt="Ananta Kishore Swain" loading="lazy" class="hero__img">
+                        <div class="hero__tech-stack">
+                            <span class="tech-icon" data-tooltip="HTML5"><i class="fab fa-html5"></i></span>
+                            <span class="tech-icon" data-tooltip="CSS3"><i class="fab fa-css3-alt"></i></span>
+                            <span class="tech-icon" data-tooltip="JavaScript"><i class="fab fa-js"></i></span>
+                            <span class="tech-icon" data-tooltip="Flutter"><i class="fas fa-mobile-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__intro">I'm a passionate <strong>Web Developer</strong> with expertise in frontend development and UI/UX design. Currently pursuing my Bachelor's in Computer Applications, I've worked on multiple projects across web, mobile, and AI domains.</p>
+                        
+                        <div class="about__details">
+                            <div class="about__detail">
+                                <h3 class="about__detail-title">Education</h3>
+                                <p><strong>Bachelor of Computer Applications (BCA)</strong><br>
+                                Creative Techno College, Angul<br>
+                                2022 - Present</p>
+                            </div>
+                            <div class="about__detail">
+                                <h3 class="about__detail-title">Experience</h3>
+                                <p><strong>Hybrid App Development Intern</strong><br>
+                                Staticoders Consultancy LLP<br>
+                                3-month internship</p>
+                            </div>
+                        </div>
+                        
+                        <p class="about__passion">When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and staying updated with the latest trends in web development. I believe in continuous learning and pushing the boundaries of what's possible with code.</p>
+                    </div>
+                    <div class="about__image">
+                        <img src="self.jpg" alt="Ananta Kishore Swain" loading="lazy" class="about__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section__title">My Skills</h2>
+                <div class="skills__grid">
+                    <div class="skill-card">
+                        <div class="skill-card__header">
+                            <i class="fab fa-html5 skill-card__icon"></i>
+                            <h3 class="skill-card__title">Frontend</h3>
+                        </div>
+                        <div class="skill-card__body">
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">HTML/CSS</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">JavaScript</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">React (Learning)</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-card__header">
+                            <i class="fas fa-mobile-alt skill-card__icon"></i>
+                            <h3 class="skill-card__title">Mobile</h3>
+                        </div>
+                        <div class="skill-card__body">
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">Flutter</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">Android</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-card__header">
+                            <i class="fas fa-code skill-card__icon"></i>
+                            <h3 class="skill-card__title">Programming</h3>
+                        </div>
+                        <div class="skill-card__body">
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">Python</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">C++</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">Java</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-card__header">
+                            <i class="fas fa-paint-brush skill-card__icon"></i>
+                            <h3 class="skill-card__title">Design</h3>
+                        </div>
+                        <div class="skill-card__body">
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">UI/UX</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-bar__label">Responsive Design</div>
+                                <div class="skill-bar__container">
+                                    <div class="skill-bar__fill" data-level="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects__grid">
+                    <div class="project-card">
+                        <div class="project-card__image">
+                            <img src="C2.png" alt="AI Virtual Friend" loading="lazy">
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn" data-project="1">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">AI Virtual Friend</h3>
+                            <p class="project-card__description">A web-based virtual assistant that interacts with users through natural language processing.</p>
+                            <div class="project-card__tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">Web</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-card__image">
+                            <img src="w1.jpeg" alt="Voice to Speech App" loading="lazy">
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn" data-project="2">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">WOMEN SAFETY APP(B-SAFE)</h3>
+                            <p class="project-card__description">An application that is usefulfor emergency situations, that helps any gender to send a emergency message to tge trusted contact with the location.</p>
+                            <div class="project-card__tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">googleapis</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-card__image">
+                            <img src="c1.jpg" alt="Banking App UI" loading="lazy">
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn" data-project="3">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Banking App UI</h3>
+                            <p class="project-card__description">A modern banking application interface with transaction features.</p>
+                            <div class="project-card__tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="certifications" class="section certifications">
+            <div class="container">
+                <h2 class="section__title">Certifications</h2>
+                <div class="certifications__grid">
+                    <div class="cert-card">
+                        <div class="cert-card__front">
+                            <img src="HTML.jpg" alt="Front End Development-HTML" loading="lazy">
+                            <h3 class="cert-card__title">Front End Development-HTML</h3>
+                            <p class="cert-card__issuer">Great Learning Academy</p>
+                        </div>
+                        <div class="cert-card__back">
+                            <p>Completed a comprehensive course covering modern HTML5 features, semantic markup, and accessibility best practices.</p>
+                            <a href="frontend html.pdf" class="btn btn--small" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-card__front">
+                            <img src="app.png" alt="Hybrid App Development" loading="lazy">
+                            <h3 class="cert-card__title">Hybrid App Development</h3>
+                            <p class="cert-card__issuer">Staticoders Consultancy</p>
+                        </div>
+                        <div class="cert-card__back">
+                            <p>3-month internship focusing on building cross-platform mobile applications using Flutter and React Native.</p>
+                            <a href="hybrd app development static.pdf" class="btn btn--small" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-card__front">
+                            <img src="network.png" alt="Network Security" loading="lazy">
+                            <h3 class="cert-card__title">Network Security</h3>
+                            <p class="cert-card__issuer">Great Learning Academy</p>
+                        </div>
+                        <div class="cert-card__back">
+                            <p>Fundamentals of network security, encryption techniques, and secure communication protocols.</p>
+                            <a href="network security.pdf" class="btn btn--small" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-card__front">
+                            <img src="NLP.jpg" alt="NLP Theory Workshop" loading="lazy">
+                            <h3 class="cert-card__title">NLP Theory Workshop</h3>
+                            <p class="cert-card__issuer">DSC/AI</p>
+                        </div>
+                        <div class="cert-card__back">
+                            <p>Participated in workshop covering Natural Language Processing concepts and implemented a Voice to Speech project.</p>
+                            <a href="NLP THEORY WORKSHOP.pdf" class="btn btn--small" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__method">
+                            <i class="fas fa-envelope contact__icon"></i>
+                            <div class="contact__details">
+                                <h3 class="contact__method-title">Email</h3>
+                                <a href="mailto:opbitu855@gmail.com" class="contact__link">opbitu855@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact__method">
+                            <i class="fas fa-phone contact__icon"></i>
+                            <div class="contact__details">
+                                <h3 class="contact__method-title">Phone</h3>
+                                <a href="tel:+919090078348" class="contact__link">+91 9090078348</a>
+                            </div>
+                        </div>
+                        <div class="contact__method">
+                            <i class="fas fa-map-marker-alt contact__icon"></i>
+                            <div class="contact__details">
+                                <h3 class="contact__method-title">Location</h3>
+                                <p>Kanyabeda, Nalco Nagar, Angul, Odisha - 759145, India</p>
+                            </div>
+                        </div>
+                        <div class="contact__social">
+                            <a href="https://www.linkedin.com/in/ananta-kishore-swain-6282472bb/" class="social-link" target="_blank" aria-label="LinkedIn" style="font-size: 2rem; margin-right: 1rem; color: #0a66c2;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/ananta12-d" class="social-link" target="_blank" aria-label="GitHub" style="font-size: 2rem; margin-right: 1rem; color: #333;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/fit.with_b2/" class="social-link" target="_blank" aria-label="Instagram" style="font-size: 2rem; color: #e4405f;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">AKS</a>
+                    <p class="footer__tagline">Building digital experiences that matter</p>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__links-title">Quick Links</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#projects" class="footer__link">Projects</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3 class="footer__contact-title">Contact Info</h3>
+                    <div class="contact__social">
+                        <a href="https://www.linkedin.com/in/ananta-kishore-swain-6282472bb/" class="social-link" target="_blank" aria-label="LinkedIn" style="font-size: 2rem; margin-right: 1rem; color: #0a66c2;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/ananta12-d" class="social-link" target="_blank" aria-label="GitHub" style="font-size: 2rem; margin-right: 1rem; color: #333;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/fit.with_b2/" class="social-link" target="_blank" aria-label="Instagram" style="font-size: 2rem; color: #e4405f;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2024 Ananta Kishore Swain. All rights reserved.</p>
+                <div class="footer__legal">
+                    <a href="#" class="footer__legal-link">Privacy Policy</a>
+                    <a href="#" class="footer__legal-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
