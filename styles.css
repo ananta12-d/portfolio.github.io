@@ -1133,3 +1133,32 @@ section {
         font-size: 1rem;
     }
 }
+
+/* Additions for improved responsiveness and radar chart */
+.section__title {
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+}
+.hero__title {
+    font-size: clamp(2rem, 5vw + 1rem, 3.5rem);
+}
+@media (max-width: 600px) {
+    .container { padding: 0 0.5rem; }
+    .section__title { font-size: 1.1rem; }
+    .hero__title { font-size: 1.5rem; }
+    section { padding: 2rem 0; }
+    .about__content,
+    .skills__grid,
+    .projects__grid,
+    .certifications__grid {
+        flex-direction: column !important;
+        display: block !important;
+    }
+    .hero__content { padding-right: 0; }
+    .hero__image-wrapper { max-width: 90vw; }
+}
+#skillsRadar {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
